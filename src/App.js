@@ -20,8 +20,13 @@ function App() {
           <IconButton size="large" edge="start">
             <CatchingPokemonIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            POKEMONAPP
+          <Typography
+            variant="h6"
+            className="font"
+            component="div"
+            sx={{ flexGrow: 1 }}
+          >
+            Frank
           </Typography>
           <Stack direction="row" spacing={2}>
             <Button color="inherit">Feaatures</Button>

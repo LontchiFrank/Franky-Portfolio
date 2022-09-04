@@ -6,3 +6,20 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.fontaf {
+  font-family: Lob;
+  color: white;
+  font-size: 2.2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.sid {
+  font-family: Rocket;
+  color: rgb(255, 174, 0);
+}

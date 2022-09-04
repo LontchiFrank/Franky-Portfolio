@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Funny;
+  src: url("./fonts/FunnyKid.ttf");
+}
+@font-face {
+  font-family: Rocket;
+  src: url("./fonts/Rocket\ City.ttf");
+}
+
+@font-face {
+  font-family: Lob;
+  src: url("./fonts/LobsterTwo-BoldItalic.ttf");
+}
+
+.font {
+  font-family: Lob;
+  font-size: 17px;
+}

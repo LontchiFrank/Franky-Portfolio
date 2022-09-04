@@ -11,7 +11,13 @@ const Landing = () => {
         display: "flex",
       }}
     >
-      <div className="part1" style={{ width: "50%", height: "100%" }}></div>
+      <div className={styles.part1} style={{ width: "50%", height: "100%" }}>
+        <div className={styles.fontaf}>
+          <h2>
+            I'm <span className={styles.sid}>Franky</span>, Front End Developer
+          </h2>
+        </div>
+      </div>
       {/* <Brand img={ping} /> */}
       <div className={styles.part2}></div>
     </div>
