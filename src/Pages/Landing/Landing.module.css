@@ -1,0 +1,8 @@
+.part2 {
+  width: 50%;
+  height: 100%;
+  background: url(../../assets/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

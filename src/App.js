@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  Typography,
+  Stack,
+  Button,
+} from "@mui/material";
+import CatchingPokemonIcon from "@mui/icons-material/CatchingPokemon";
+import "./App.css";
+import Landing from "./Pages/Landing/Landing.screen";
 
 function App() {
+  React.createElement(Landing);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ width: "100%", height: "100vh" }}>
+      <AppBar style={{ backgroundColor: "black" }}>
+        <Toolbar>
+          <IconButton size="large" edge="start">
+            <CatchingPokemonIcon />
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            POKEMONAPP
+          </Typography>
+          <Stack direction="row" spacing={2}>
+            <Button color="inherit">Feaatures</Button>
+            <Button color="inherit">Pricing</Button>
+            <Button color="inherit">About</Button>
+            <Button color="inherit">Login</Button>
+            <Button color="inherit">Register</Button>
+          </Stack>
+        </Toolbar>
+      </AppBar>
+      <Landing />
     </div>
   );
 }
