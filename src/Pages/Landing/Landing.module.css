@@ -13,13 +13,24 @@
   padding: 2em;
 }
 .fontaf {
-  font-family: Lob;
+  font-family: "Poppins", "sans-serif";
   color: white;
   font-size: 2.2em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
 }
+.fontaf h2 {
+  margin: 0;
+}
+
 .sid {
-  font-family: Rocket;
+  /* font-family: "Playball", cursive; */
+  font-family: "Clicker Script", cursive;
   color: rgb(255, 174, 0);
+  font-size: 1.5em;
+}
+.para {
+  font-size: 25px;
+  color: rgb(122, 122, 122);
+  margin: 0;
 }

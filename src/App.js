@@ -16,7 +16,7 @@ function App() {
   return (
     <div style={{ width: "100%", height: "100vh" }}>
       <AppBar style={{ backgroundColor: "black" }}>
-        <Toolbar>
+        <Toolbar style={{ paddingRight: "22px !important" }}>
           <IconButton size="large" edge="start">
             <CatchingPokemonIcon />
           </IconButton>

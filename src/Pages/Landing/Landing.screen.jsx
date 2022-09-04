@@ -14,8 +14,12 @@ const Landing = () => {
       <div className={styles.part1} style={{ width: "50%", height: "100%" }}>
         <div className={styles.fontaf}>
           <h2>
-            I'm <span className={styles.sid}>Franky</span>, Front End Developer
+            I'm <span className={styles.sid}>Franky</span>, Web Developer.
           </h2>
+          <p className={styles.para}>
+            {" "}
+            Frontend Developer | UI Designer | WebXR enthusiast
+          </p>
         </div>
       </div>
       {/* <Brand img={ping} /> */}
