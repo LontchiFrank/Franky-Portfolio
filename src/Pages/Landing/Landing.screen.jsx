@@ -14,7 +14,7 @@ const Landing = () => {
       <div className={styles.part1} style={{ width: "50%", height: "100%" }}>
         <div className={styles.fontaf}>
           <h2>
-            I'm <span className={styles.sid}>Franky</span>, Web Devele
+            I'm <span className={styles.sid}>Franky</span>, Web Devel
             <span style={{ color: "rgb(255, 174, 0)" }}>oper</span>.
           </h2>
           <p className={styles.para}>
