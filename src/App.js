@@ -14,7 +14,7 @@ import Landing from "./Pages/Landing/Landing.screen";
 function App() {
   React.createElement(Landing);
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
+    <div>
       <AppBar style={{ backgroundColor: "black" }}>
         <Toolbar style={{ paddingRight: "22px !important" }}>
           <IconButton size="large" edge="start">
@@ -29,7 +29,7 @@ function App() {
             Frank
           </Typography>
           <Stack direction="row" spacing={2}>
-            <Button color="inherit">Feaatures</Button>
+            <Button color="inherit">Features</Button>
             <Button color="inherit">Pricing</Button>
             <Button color="inherit">About</Button>
             <Button color="inherit">Login</Button>

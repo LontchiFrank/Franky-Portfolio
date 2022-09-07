@@ -6,7 +6,7 @@ const Landing = () => {
     <div
       style={{
         width: "100%",
-        height: "100%",
+        height: "100vh",
         background: "black",
         display: "flex",
       }}
@@ -20,6 +20,9 @@ const Landing = () => {
             {" "}
             Frontend Developer | UI Designer | WebXR enthusiast
           </p>
+        </div>
+        <div className={styles.code}>
+          <p> &lt; h1 &gt; </p>
         </div>
       </div>
       {/* <Brand img={ping} /> */}
