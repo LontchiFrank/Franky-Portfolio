@@ -26,7 +26,7 @@ function App() {
             component="div"
             sx={{ flexGrow: 1 }}
           >
-            Frank
+            Franky
           </Typography>
           <Stack direction="row" spacing={2}>
             <Button color="inherit">Features</Button>
