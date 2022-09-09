@@ -30,6 +30,7 @@ const Landing = () => {
         <p className={styles.tag1}> &lt; br /&gt; </p>
         <p className={styles.tag2}> &lt; p &gt; </p>
         <p className={styles.tag3}> &lt; title &gt; </p>
+        <p className={styles.tag5}> &lt; tr &gt; </p>
       </div>
       {/* <Brand img={ping} /> */}
       <div className={styles.part2}></div>

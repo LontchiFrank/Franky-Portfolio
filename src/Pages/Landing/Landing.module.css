@@ -85,3 +85,12 @@
   top: 10%;
   left: 0%;
 }
+.tag5 {
+  color: rgb(255, 174, 0);
+  font-family: "Clicker Script", cursive;
+  font-size: 2em;
+  /* font-weight: bold; */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
