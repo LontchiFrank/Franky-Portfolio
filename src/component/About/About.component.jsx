@@ -53,7 +53,7 @@ const About = () => {
               <img
                 alt="Cinema Theater Movie illustration - Free transparent PNG, SVG. No Sign up needed."
                 width="100"
-                heigth="100"
+                heigth="10 0"
                 src="https://assets.streamlinehq.com/image/private/w_120,h_120,ar_1/f_auto/v1/icons/movies/cinema-theater-movie-y7u0q5cos2qsvcjfkl35.png/cinema-theater-movie-kk1siymxfaw40fbylm8ho.png?_a=AJE+xWI0"
               />
             </div>
